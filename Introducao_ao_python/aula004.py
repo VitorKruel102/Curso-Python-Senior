@@ -9,7 +9,7 @@ print(0.0, -1.5) #float
 """
 
 print(type('Otávio'))
-print(type(1), type(0), type(-1))
-print(type(1.1), type(0.0), type(-1.1))
+print(type(1), type(0), type(-1), sep=' = ')
+print(type(1.1), type(0.0), type(-1.1), sep=' = ')
 
 
