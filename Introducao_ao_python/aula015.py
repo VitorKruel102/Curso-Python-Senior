@@ -4,6 +4,8 @@ print(f'O seu nome é {nome=}')
 numero_1 = input('Dígite um número: ')
 numero_2 = input('Dígite outro número: ')
 
+# CRIAR UM VALIDADOR PARA CONFIRMAR SE É UM NÚMERO.
+
 int_numero_1 = int(numero_1)
 int_numero_2 = int(numero_2)
 
