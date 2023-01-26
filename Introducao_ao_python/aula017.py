@@ -1,9 +1,10 @@
 condicao1 = False
-condicao2 = True
+condicao2 = False
 condicao3 = True
 condicao4 = True
 
 if condicao1:
+    print('Código para a condição 1')
     print('Código para a condição 1')
 elif condicao2: 
     print('Código para a condição 2')
