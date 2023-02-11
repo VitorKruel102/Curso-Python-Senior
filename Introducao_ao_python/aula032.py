@@ -37,3 +37,25 @@ else:
         print('Boa tarde!')
     else:
         print('Boa noite!')
+
+# Exercicio 03: 
+"""Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou
+menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
+"Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande".
+"""
+first_name = input('Digite seu primeiro nome: ')
+has_number = any(char.isdigit() for char in first_name)
+
+if has_number:
+    print('Você digitou o nome corretamente.')
+else:
+    is_shot_name = len(first_name) < 5 
+    is_normal_name = is_shot_name == False and len(first_name) <= 6
+    
+    if is_shot_name: 
+        print('Seu nome é curto.')
+    elif is_normal_name:
+        print('Seu nome é normal.')
+    else:
+        print('Seu nome é muito grande.')
+        
