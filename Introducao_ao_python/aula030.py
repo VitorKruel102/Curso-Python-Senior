@@ -13,7 +13,6 @@ carro_no_ultimo_terco_radar = local_carro <= (LOCAL_1 + RADAR_RANGE)
 carro_passou_radar_1 = carro_no_primeiro_terco_radar and carro_no_ultimo_terco_radar
 carro_multado_radar_1 = carro_passou_radar_1 and velocidade_carro_passou_radar_1
 
-
 if velocidade_carro_passou_radar_1:
     print('Velocidade do carro passou do radar 1')
 
