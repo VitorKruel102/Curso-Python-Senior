@@ -18,7 +18,9 @@ else:
 
 # Exercicio 02: 
 """Faça um programa que pergunte a hora ao usuário e, baseando-se no horário 
-descrito, exiba a saudação apropriada. Ex:
+descrito, exiba a saudação apropriada. 
+Ex:
+    Bom dia (0-11) <---> Boa tarde (12-17) <---> Boa noite (18-23)
 """
 current_time = input('Digite a hora atual do seu dia: ')
 
