@@ -1,0 +1,10 @@
+-> Aula 30:
+
+    Constantes: é recomentado para deixar o código mais 
+                legivel, pois existe a padronização 
+                universal que variáveis com CapsLock são
+                variáveis que não mudam.
+
+                VELOCIDADE_MAXIMA = 60 
+
+-> Aula 31:
