@@ -1,7 +1,5 @@
 # Introdução ao try/except:
 
-
-
 numero_str = input('Vou dobrar o número que você digitar: ')
 
 while True:
@@ -11,5 +9,3 @@ while True:
         break
     except:
         print('Isso não é um número')
-
-
