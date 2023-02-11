@@ -12,9 +12,9 @@ else:
     is_even_number = number_int % 2 == 0
 
     if is_even_number:
-        print('O número é par.')
+        print(f'O número {number} é par.')
     else:
-        print('O número é impar.')
+        print(f'O número {number} é impar.')
 
 # Exercicio 02: 
 """Faça um programa que pergunte a hora ao usuário e, baseando-se no horário 
@@ -29,7 +29,7 @@ if not current_time.isdigit():
 else:
     current_time_int = int(current_time)
     is_morning = current_time_int <= 11 
-    is_afternoon = current_time_int >= 12 and current_time_int < 18
+    is_afternoon = not is_morning and current_time_int < 18
 
     if is_morning:
         print('Bom dia!')
@@ -50,7 +50,7 @@ if has_number:
     print('Você digitou o nome corretamente.')
 else:
     is_shot_name = len(first_name) < 5 
-    is_normal_name = is_shot_name == False and len(first_name) <= 6
+    is_normal_name = not is_shot_name and len(first_name) <= 6
     
     if is_shot_name: 
         print('Seu nome é curto.')
@@ -58,4 +58,3 @@ else:
         print('Seu nome é normal.')
     else:
         print('Seu nome é muito grande.')
-        
