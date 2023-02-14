@@ -1,5 +1,4 @@
 # Interando strings com while
-
 nome_completo = 'Vitor Kruel da Silva'
 tamanho_nome = len(nome_completo)
 nova_string = ''
