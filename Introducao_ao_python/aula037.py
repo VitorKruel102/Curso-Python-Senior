@@ -1,7 +1,7 @@
 # Repetição
 contator = 0
 
-while contator <= 100:
+while contator <= 50:
     contator += 1
     
     if contator == 6:
