@@ -6,6 +6,9 @@ while True:
     operador = input('Digite o operador (+-/*): ')
 
     numeros_validos = None
+    numero_1_float = 0
+    numero_2_float = 0
+
     try:
         numero_1_float = float(numero_1)
         numero_2_float = float(numero_2)
@@ -26,8 +29,20 @@ while True:
         print('Digite apenas um operador')
         continue
 
-    
-
+    print('Realizando sua conta. confira o resultado abaixo:')
+    if operador == '+':
+        print(f'{numero_1_float} + {numero_2_float}= {numero_1_float+ numero_2_float}',)
+    elif operador == '-':
+        print(f'{numero_1_float} - {numero_2_float}= {numero_1_float+ numero_2_float}',)
+    elif operador == '/':
+        if numero_2_float == 0:
+            print('Não existe divisão por zero!')
+            continue
+        print(f'{numero_1_float} / {numero_2_float}= {numero_1_float+ numero_2_float}',)
+    elif operador == '*':
+        print(f'{numero_1_float} * {numero_2_float}= {numero_1_float+ numero_2_float}',)
+    else:
+        print('Erro encontrado na aplicação')
 
     sair = input('Quer sair? [s]im: ').lower().startswith('s')
     if sair:
