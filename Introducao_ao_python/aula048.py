@@ -17,3 +17,10 @@ conjunto_numerico.append(50) # Add itens ao final
 ultimo_valor = conjunto_numerico.pop() # Remove e retorna o último item 
 primeiro_valor = conjunto_numerico.pop(0) # Remove e retorna o primeiro item
 print(conjunto_numerico, f'{ultimo_valor=}', f'{primeiro_valor=}', sep=' --> ')
+
+conjunto_numerico.clear() # Limpar lista
+print(conjunto_numerico)
+
+conjunto_numerico = [10, 20, 30, 40]
+conjunto_numerico.insert(0, 5) # Adicionar um item em determinado indice
+print(conjunto_numerico)
