@@ -30,3 +30,10 @@
                 variáveis que não mudam.
 
                 VELOCIDADE_MAXIMA = 60 
+
+-> Aula 48:
+    AVISO IMPORTANTE:
+    *****************
+        Evitar remover (del lista[1]) indices, pois ira requerer muito processamento
+        e irá deixar seu código lento.
+

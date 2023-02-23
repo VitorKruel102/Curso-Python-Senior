@@ -12,3 +12,8 @@ print(conjunto_numerico, f'{numero=}', sep=' --> ')
 
 del conjunto_numerico[0] # Delete
 print(conjunto_numerico)
+
+conjunto_numerico.append(50) # Add itens ao final
+ultimo_valor = conjunto_numerico.pop() # Remove e retorna o último item 
+primeiro_valor = conjunto_numerico.pop(0) # Remove e retorna o primeiro item
+print(conjunto_numerico, f'{ultimo_valor=}', f'{primeiro_valor=}', sep=' --> ')
