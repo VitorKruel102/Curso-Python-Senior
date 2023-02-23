@@ -1,3 +1,27 @@
+-> Aula 02:
+    Função: print()
+    ---------------
+        Parâmetros: 
+            sep='' # Utilizado para colocar separador entre as palavras;
+            end='' # Adicionar valores no final;
+
+-> Aula 13:
+    f-strings:
+    ----------
+        imc = 12.5265421
+        print(f'{imc:.2f}')
+        
+        :.2f --> Delimita para duas casas decimais.
+
+-> Aula 26:
+    print(f'{variavel: >10}')  # Fixar 10 casas, com a variavel ao lado esquerdo
+    print(f'{variavel:.<10}')  # Fixar 10 casas, com a variavel ao lado direito e com pontos
+    print(f'{variavel:-^10}')  # Fixar 10 casas, com a variavel ao centro e com traços
+    print(f'{15000:08X}')      # Numero no formato Hexadecimal
+    print(f'{variavel!r}')     #__repr__
+    print(f'{variavel!s}')     #__str__
+    print(f'{variavel!a}')     # ASCII
+
 -> Aula 30:
 
     Constantes: é recomentado para deixar o código mais 
@@ -6,5 +30,3 @@
                 variáveis que não mudam.
 
                 VELOCIDADE_MAXIMA = 60 
-
--> Aula 31:
