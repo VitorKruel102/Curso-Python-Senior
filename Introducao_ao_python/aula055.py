@@ -1,4 +1,4 @@
-# Imprecissão de ponto flutuante:
+# Imprecisão de ponto flutuante:
 import decimal
 
 numero_1 = decimal.Decimal(0.1) # Utilizamos para ter as casas precisas de um número decimal;
