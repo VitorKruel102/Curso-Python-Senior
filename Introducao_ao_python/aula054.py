@@ -41,4 +41,3 @@ while True:
     else:
         print('Dígite uma solicitação valida!')
     
-    
