@@ -1,4 +1,4 @@
-# Lista de Listas e seus indices;
+# Lista de Listas e seus índices;
 salas = [
     ['Maria', 'Helena'],
     ['Elaine', ],
