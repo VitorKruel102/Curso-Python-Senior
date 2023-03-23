@@ -15,3 +15,14 @@ print(perfil_vitor.items())   # Retorna uma lista com chaves e valores
 
 for chave in perfil_vitor:
     print(chave)
+
+dicionario_01 = {
+    'c1': 1,
+    'c2': 2,
+}
+
+dicionario_02 = dicionario_01.copy() # Cria uma cópia do dicionário
+
+"""Precisamos ter ATENÇÃO, pois se conter listas dentro do dicionário,
+e for realizado alterações desta lista dentro da copy, ela também será
+alterada dentro do dicionário principal."""
