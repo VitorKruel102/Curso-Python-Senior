@@ -26,3 +26,22 @@ dicionario_02 = dicionario_01.copy() # Cria uma cópia do dicionário
 """Precisamos ter ATENÇÃO, pois se conter listas dentro do dicionário,
 e for realizado alterações desta lista dentro da copy, ela também será
 alterada dentro do dicionário principal."""
+
+perfil_vitoria = {
+    'nome': 'Vitória',
+    'sobrenome': 'Dias',
+}
+
+print(perfil_vitoria.get('nome')) # Retorna o valor, caso não exista a chave, retorna None;
+print(perfil_vitoria.pop('nome')) # Retorna o valor, e exclue a chave;
+print(perfil_vitoria.popitem())   # Retorna o valor da ultima chave, e exclue a chave;
+
+perfil_vitoria.update({
+    'nome': 'Vitória',
+    'sobrenome': 'Dias',
+    'idade': 21
+})   # Retorna o valor da ultima chave, e exclue a chave;
+
+perfil_vitoria.update(idade=22)
+
+print(perfil_vitoria)
