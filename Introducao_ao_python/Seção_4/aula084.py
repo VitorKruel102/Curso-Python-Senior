@@ -20,3 +20,7 @@ produtos = [
 
 novos_produtos = [ {**produto, 'preco': produto['preco'] * 1.05} for produto in produtos]
 print(novos_produtos)
+
+# Filter em list Comprehension:
+lista = [n for n in range(10) if n < 5]
+print(lista)
