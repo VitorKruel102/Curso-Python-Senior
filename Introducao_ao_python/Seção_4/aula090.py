@@ -10,7 +10,8 @@ print(next(itarator))
 
 generator = (n for n in range(100000000000000)) 
 """
-Genetator Expression, entraga um valor por vez,
-não pesa na memória.
+Generator Expression, entraga um valor por vez,
+não pesa na memória, só entrega o valor e não
+sabe o tamanho e nem index.
 """
 print(sys.getsizeof(generator))
