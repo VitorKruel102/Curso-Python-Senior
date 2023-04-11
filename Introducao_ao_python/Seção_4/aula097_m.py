@@ -5,3 +5,5 @@ except ModuleNotFoundError:
     ...
 
 # import modulo
+
+variavel_nome = 'Vitor'
