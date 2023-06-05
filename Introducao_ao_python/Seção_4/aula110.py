@@ -1,5 +1,6 @@
 from itertools import groupby
 
+
 alunos = [
     {'Nome': 'Vitoria', 'Nota': 'A'},
     {'Nome': 'Luiz', 'Nota': 'B'},
