@@ -13,18 +13,16 @@ def criar_funcao(func):
         return func(*args, **kwargs)
     return interna
 
-
-@criar_funcao
-def inverte_string(string):
-    return string[::-1]
-
-
-    
+  
 def is_string(param):
     """."""
     if not isinstance(param, str):
         raise TypeError('Deve ser uma string')
 
+
+@criar_funcao
+def inverte_string(string):
+    return string[::-1]
 
 
 print(inverte_string('123'))
