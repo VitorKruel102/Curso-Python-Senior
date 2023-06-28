@@ -1,0 +1,36 @@
+==============================================
+
+                Ambiente Virtual
+
+==============================================
+Criando o ambiente virtual
+
+Comando:
+    python -m venv venv 
+Ativando o ambiente:
+    venv/Scripts/Activate
+
+
+==============================================
+
+                requirements.txt
+
+==============================================
+É utilizado para guardas as bibliotecas 
+utilizadas no projeto.
+
+Comando:
+    pip freeze > requirements.txt
+
+Instalador:
+    pip install -r requirements.txt
+
+
+==============================================
+
+                .gitignore
+
+==============================================
+
+Utilizamos para ignorar os ambientes virtuais 
+e outros arquivos.
