@@ -14,13 +14,13 @@ def adiciona_clientes(nome, lista=[]): #Forma errada
     lista.append(nome)
     return lista
 
-cliente1 = adiciona_clientes('Luiz')
-adiciona_clientes('Joana', cliente1)
-print(cliente1)
+clientes1 = adiciona_clientes('Luiz')
+adiciona_clientes('Joana', clientes1)
+print(clientes1)
 
-cliente2 = adiciona_clientes('Maria')
-adiciona_clientes('Helena', cliente2)
-print(cliente2)
+clientes2 = adiciona_clientes('Maria')
+adiciona_clientes('Helena', clientes2)
+print(clientes2)
 
 print('=' * 40)
 
@@ -31,10 +31,10 @@ def adiciona_clientes(nome, lista=None): #Forma Correta
     lista.append(nome)
     return lista
 
-cliente1 = adiciona_clientes('Luiz')
-adiciona_clientes('Joana', cliente1)
-print(cliente1)
+clientes1 = adiciona_clientes('Luiz')
+adiciona_clientes('Joana', clientes1)
+print(clientes1)
 
-cliente2 = adiciona_clientes('Maria')
-adiciona_clientes('Helena', cliente2)
-print(cliente2)
+clientes2 = adiciona_clientes('Maria')
+adiciona_clientes('Helena', clientes2)
+print(clientes2)
