@@ -53,6 +53,8 @@ pessoas = [
 
 with open(SAVE_TO, 'w', encoding='utf-8') as arquivo:
     json.dump(pessoas, arquivo, indent=2, ensure_ascii=False)
+    # indent -> Coloca espaços de separação do arquivo
+    # ensure_ascii -> Aceita acentuação
 
 with open(SAVE_TO, 'r', encoding='utf-8') as arquivo:
     pessoas = json.load(arquivo)
