@@ -1,5 +1,5 @@
 """
-Escopo de classe e de métodos de clases
+Escopo de classe e de métodos de clases.
 
 Criado: 01/07/2023 18:01
 
