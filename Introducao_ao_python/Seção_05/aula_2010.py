@@ -1,5 +1,5 @@
 """
-@staticmethod (métodos estátios)
+@staticmethod (métodos estáticos)
 
 Criado: 03/07/2023 13:29
 
