@@ -3,7 +3,7 @@ import os
 
 
 BASE_DIR = os.path.dirname(__file__)
-SAVE_TO = os.path.join(BASE_DIR, 'arquivo-pessoa.json')
+PATH_ARQUIVO = os.path.join(BASE_DIR, 'arquivo-pessoa.json')
 
 class Pessoa:
     def __init__(self, nome, sobrenome, idade, sexo, cidade, estado) -> None:
@@ -24,5 +24,5 @@ pessoa_01 = Pessoa(
     estado='RS'
 )    
 
-with open(SAVE_TO, 'w+', encoding='utf-8') as arquivo:
+with open(PATH_ARQUIVO, 'w+', encoding='utf-8') as arquivo:
     json.dump(vars(pessoa_01), arquivo, indent=2, ensure_ascii=False)
