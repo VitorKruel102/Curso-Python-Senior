@@ -24,5 +24,10 @@ pessoa_01 = Pessoa(
     estado='RS'
 )    
 
-with open(PATH_ARQUIVO, 'w+', encoding='utf-8') as arquivo:
-    json.dump(vars(pessoa_01), arquivo, indent=2, ensure_ascii=False)
+def fazer_dump():
+    with open(PATH_ARQUIVO, 'w+', encoding='utf-8') as arquivo:
+        json.dump(vars(pessoa_01), arquivo, indent=2, ensure_ascii=False)
+
+
+if __name__ == '__main__':
+    fazer_dump()
