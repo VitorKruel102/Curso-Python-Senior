@@ -14,21 +14,23 @@ class Caneta:
 
     @property
     def cor(self):
-        return self._cor 
-    
+        return self._cor
+
     @cor.setter
     def cor(self, valor):
         if valor == 'Rosa':
             raise ValueError('Não aceito essa cor.')
         self._cor = valor
 
-    @property 
+    @property
     def cor_tampa(self):
         return self._cor_tampa
 
     @cor_tampa.setter
     def cor_tampa(self, valor):
         self._cor_tampa = valor
+
+
 """
 Atributos que começam com um ou dois underlines 
 não devem ser usados fora da classe:
@@ -38,10 +40,10 @@ Ex.:
 """
 
 caneta = Caneta('Vermelha')
-#setter -> Mandar o valor
+# setter -> Mandar o valor
 caneta.cor = 'Pink'
 caneta.cor_tampa = 'Azul'
-#getter -> Obter valor
+# getter -> Obter valor
 print(caneta.cor)
 print(caneta.cor_tampa)
 
