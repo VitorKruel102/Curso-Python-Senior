@@ -5,15 +5,17 @@ Criado: 04/07/2023 18:18
 
 Author: Vitor Kruel
 """
+
+
 class Connection:
     def __init__(self, host='localhost') -> None:
         self.host = host
         self.user = None
         self.password = None
 
-    def set_user(self, user): #self, Médodo de Instância
+    def set_user(self, user):  # self, Médodo de Instância
         self.user = user
-    
+
     def set_password(self, password):
         self.password = password
 
@@ -26,7 +28,7 @@ class Connection:
 
     @staticmethod
     def log(msg):
-        print(f'LOG: {msg}') 
+        print(f'LOG: {msg}')
 
 
 c1 = Connection()
