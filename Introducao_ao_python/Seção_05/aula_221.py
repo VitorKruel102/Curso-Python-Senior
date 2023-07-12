@@ -72,5 +72,4 @@ print(classe_c.atributo_a)
 print(classe_c.atributo_b)
 print(classe_c.atributo_c)
 print('-' * 80)
-
 classe_c.metodo()
