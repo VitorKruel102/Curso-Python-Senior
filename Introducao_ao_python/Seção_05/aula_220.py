@@ -40,7 +40,6 @@ class Aluno(Pessoa):
    pass
 
 
-
 cliente1 = Aluno('Vitória', 'Dias')
 cliente1.falar_nome_classe()
 
