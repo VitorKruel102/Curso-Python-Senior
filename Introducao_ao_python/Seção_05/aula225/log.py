@@ -1,4 +1,10 @@
 # Abstração 
+from pathlib import Path
+
+
+LOG_FILE = Path(__file__).parent / 'log.txt'
+
+
 class Log:
     def _log(self, mensagem):
         """."""
@@ -16,7 +22,12 @@ class Log:
 class LogFileMixin(Log):
     def _log(self, mensagem):
         """."""
-        print(mensagem)
+        mensagem_formatada = f'{mensagem} ({self.__class__.__name__})'
+        print(f'Salvando no log: {mensagem}')
+
+        with open(LOG_FILE, 'a') as arquivo:
+            arquivo.write(mensagem_formatada)
+            arquivo.write('\n')
 
 
 class LogPrintMixin(Log):
@@ -26,9 +37,12 @@ class LogPrintMixin(Log):
 
  
 if __name__ == '__main__':
-    objeto = LogFileMixin()
-    objeto.log_error('mensagem')
+    objeto_file = LogFileMixin()
+    objeto_file.log_error('qualquer coisa')
+    objeto_file.log_success('qualquer coisa')
 
-    objeto = LogPrintMixin()
-    objeto.log_error('qualquer coisa')
-    objeto.log_success('qualquer coisa')
+    objeto_print = LogPrintMixin()
+    objeto_print.log_error('qualquer coisa')
+    objeto_print.log_success('qualquer coisa')
+
+    

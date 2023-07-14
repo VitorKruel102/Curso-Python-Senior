@@ -5,4 +5,5 @@ Criado: 14/07/2023 09:54
 
 Author: Vitor Kruel
 """
+from log import LogFileMixin, LogPrintMixin
 
