@@ -1,5 +1,5 @@
 """
-
+Classe Abstratas = Abstract Base Class (abc)
 
 Criado: 17/07/2023 16:28
 
