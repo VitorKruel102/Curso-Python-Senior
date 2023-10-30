@@ -8,8 +8,6 @@ Author: Vitor Kruel.
 
 
 class MeuError(Exception):
-
-
     pass
 
 
