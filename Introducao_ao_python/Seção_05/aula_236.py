@@ -31,12 +31,19 @@ class Ponto:
         class_name = self.__class__.__name__
         return f'{class_name}(x={self.x!r}, y={self.y!r}, z={self.z!r})'
 
+    def __add__(self, other):
+        novo_x = self.x + other.x
+        novo_y = self.y + other.y
+        return Ponto(novo_x, novo_y)
+
 
 
 p1 = Ponto(1, 2)
 p2 = Ponto(3, 4)
 
 print(p1)
+print(p2)
 print(p1.__repr__())
 print(repr(p1))
 print(f'{p2!r}')
+print(p1+ p2)
